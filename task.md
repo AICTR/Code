@@ -3,4 +3,4 @@
 3. Kernel training deng
 4. optimization hu
 5. ppt liu
-6. presentation everyonr
+6. presentation everyone
