@@ -1,0 +1,16 @@
+ Empirical Result
+
+ From the previous construction, we can see that we do not have much parameters to tune. Since the algorithms are simple and intuitive, the only “selection" we made is the choices of trend representatives. Since our four trend representatives are simple and representing difference aspects of the trend, we do not have a training set to do the selection among trend representatives.
+
+From the previous explanation, we have the period from 2008-2018 be the test set to do back test. It is well-known that the market changed quite a bit after the financial crisis, so the characteristics of the market after 2009 might be quite different from that of 2008-2009. Inspired by this idea, we separate the test set to 2 periods, first of which is 2008-2009, and the second of which is 2010-2018.
+
+[please insert figure 1-empirical result in 2008-2009]
+[please insert figure 2-empirical result in 2010-2018]
+
+First we have different types of strategy. The “S” represents for our strategy, and the “EMA”, “SMA”, “PP”, “LL” represent for the single-factor special case of our strategy respectively, while the “bmk” stands for the equal weighted S&P500 components strategy.
+
+From figure 1, when there is a turbulence in the market, our strategy outperforms the benchmark, and most of the single-factor models. This is also the case for bull-market period 2010-2018, which is shown in figure 2. It is concluded that our model is able to get adapted to the change of market, and stand a good performance comparing with the benchmark.
+
+[please insert table 1-empirical statistics in both period]
+
+The result is also concluded in statistical form. Our model have a mean return of 14.7% in 2008-2009 and a mean return of 13.3% after 2009, while the benchmark have a mean return of 7.7% in 2008-2009 and a 10.6% after that. Our model is also standing out when it comes to risk return measure. Our model owns a 0.41 information ratio in 2008-2009, and a higher information ratio as 0.75 in 2010-2018, comparing to the 0.22 and 0.67 of the benchmark.
